@@ -38,9 +38,4 @@ defmodule Portal do
     end
     portal
   end
-
-  def flush_all(portal) do
-    Portal.Door.flush(portal)
-    portal
-  end
 end
